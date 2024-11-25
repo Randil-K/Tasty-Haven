@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*nav-bar*/
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+ul .list-items{
+    color: white;
+    text-decoration: none;
+}
+
+ul .list-items:hover{
+    color: #d7b95f;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    
+    background-color: rgb(18, 17, 16);
+    
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.logo > img{
+    width: 150px;
+    height: auto;
+    
+}
+
+.srch, .btn{
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: serif;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: le;
+}
+
+.srch{
+    padding-left: 10px;
+
+    
+}
+
+.btn:hover{
+    color: white;
+    background-color: #d7b95f;
+}
+
+.btn{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*Hero area*/
+.hero-area{
+    background-image: url(./foraboutusPage/pexels-pixabay-260922\ \(1\).jpg);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.hero-section{
+    height: 50vh;
+}
+
+.hero-content{
+    color: white;
+    font-family: serif;
+}
+
+.hero-head{
+    font-size: 200px;
+    color: bisque;
+}
+
+.hero-head-small{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+
+}
+
+.hero-left{
+    margin: 30px;
+}
+
+/*about-us-welcome*/
+
+.about-us-welcome{
+   
+    background-color: #121110;
+    border-top: 3px solid #d7b95f;
+    border-bottom: 3px solid #d7b95f;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-welcome-content{
+    color: white;
+    text-align: center;
+}
+
+.head{
+    font-size: 46px;
+    
+}
+
+.long-para{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+
+
+.visionMission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    color: rgb(255, 255, 255);    
+    background-image: url(./foraboutusPage/pexels-pixabay-258154.jpg);
+    background-position: center;
+    background-size: 1800px;
+}
+
+.para{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 500px;
+
+}
+
+.visionMission div {
+    background-color: #121110;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #d7b95f;
+}
+
+/*go to gallery*/
+
+.go-to-gallery{
+    background-color: #121110;
+    color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+
+.gallery> button{
+    padding: 15px 30px;
+    background-color: #d7b95f;
+    margin-top: 30px;
+
+}
+
+.gallery> button > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    
+    
+}
+
+.go-to-gallery > .gallery> button:hover {
+    background-color: #ffa500;
+}
+
+
+/*Footer*/
+
+
+.Footer{
+    
+    background-color: #121110;
+    border-top: 3px solid #d7b95f;
+}
+
+
+
+.above-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid #171717;
+}
+
+.footer-quick-links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.footer-quick-links a {
+    text-decoration: none;
+
+
+    
+}
+
+.footer-items{
+    margin: 50px;
+    color: #ffffff;
+    
+}
+
+.footer-items a{
+    color: #ffffff;
+    
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.footer-about{
+    width: 400px;
+}
+
+.footer-heading{
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+
+.footer-about > p, .footer-quick-links > li a, .footer-contact > li a, .footer-contact > li {
+
+    font-size: 17px;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

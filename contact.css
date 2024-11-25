@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+}
+
+/*nav-bar*/
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+ul .list-items{
+    color: white;
+    text-decoration: none;
+}
+
+ul .list-items:hover{
+    color: #d7b95f;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-top: 0px;
+    background-color: rgb(18, 17, 16);
+    padding: 20px;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.logo > img{
+    width: 150px;
+    height: auto;
+}
+
+.srch, .btn{
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: serif;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: le;
+}
+
+.srch{
+    padding-left: 10px;
+
+    
+}
+
+.btn:hover{
+    color: white;
+    background-color: #d7b95f;
+}
+
+.btn{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*contact*/
+
+.contact-bg > img{
+    width: auto;
+    height: 300px;
+    
+}
+
+
+.contact-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+    color: white;
+    background-color: 
+    #121110;
+    border-top: 3px solid #d8b74c;
+    border-bottom: 3px solid #d8b74c;
+    
+}
+
+.contact-info ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+
+.contact-info ul li > a{
+    color: 
+    #c5bda3;
+    text-decoration: none;
+    
+}
+
+.social > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: space;
+    justify-content: space-around;
+    gap: 90px;
+    margin-top: 40px;
+}
+
+.contact-head{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+/*operatin hours*/
+.operating-hours{
+    background-image: url(./contact-page/pexels-pixabay-326333.jpg);
+    background-position: center;
+    background-size: 1000px;
+
+
+}
+
+.area-header{
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.areas ul li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: space-around;
+    justify-content: center;
+    color: white;
+    
+}
+
+.open-head{
+    text-align: center;
+    margin-bottom: 130px;
+    font-size: 60px;
+    
+}
+
+.area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+   
+}
+
+.areas{
+    background-color: #121110;
+    padding: 30px;
+    border: 2px solid #d8b74c;
+    text-align: center;
+}
+
+.btn-for-reserve{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.back-to-form{
+    padding: 15px 30px;
+    background-color: #d8b74c;
+    margin-top: 30px;
+}
+
+.back-to-form:hover{
+    background-color: #ffa500;
+}
+
+.back-to-form > a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-header{
+    font-size: 30px;
+}
+
+
+/*Footer Section*/
+.Footer{
+
+    background-color: #121110;
+    border-top: 3px solid #d8b74c;
+}
+
+
+
+.above-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid #171717;
+}
+
+.footer-quick-links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.footer-quick-links a {
+    text-decoration: none;
+
+
+    
+}
+
+.footer-items{
+    margin: 50px;
+    color: #ffffff;
+    
+}
+
+.footer-items a{
+    color: #ffffff;
+    
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.footer-about{
+    width: 400px;
+}
+
+.footer-heading{
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+
+.footer-about > p, .footer-quick-links > li a, .footer-contact > li a, .footer-contact > li {
+
+    font-size: 17px;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+

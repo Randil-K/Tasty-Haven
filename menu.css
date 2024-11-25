@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*nav-bar*/
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+ul .list-items{
+    color: white;
+    text-decoration: none;
+}
+
+ul .list-items:hover{
+    color: #d7b95f;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-top: 0px;
+    background-color: rgb(18, 17, 16);
+    padding: 20px;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.logo > img{
+    width: 150px;
+    height: auto;
+}
+
+.srch, .btn{
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: serif;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: le;
+}
+
+.srch{
+    padding-left: 10px;
+
+    
+}
+
+.btn:hover{
+    color: white;
+    background-color: #d7b95f;
+}
+
+.btn{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Food Items*/
+
+.header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.items h2,h4{
+    color: white;
+}
+
+.main-1{
+    margin-top: 60px;
+}
+
+.items p{
+    color: aliceblue;
+}
+
+body{
+    background-color: #171717;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.left-side {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.left-side img {
+    width: 400px;
+    height: 300px;
+
+
+    
+
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    
+   
+}
+
+.right-side>div {
+    margin: 10px;
+}
+
+.above > h2{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    
+
+}
+
+.above-p {
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+.below {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    width: 120px;
+    
+    
+    background-color:#d7b95f;
+    
+}
+
+.below h4{
+    padding: 20px;
+    
+}
+
+.items{
+    border: 2px solid #d7b95f;
+}
+
+
+/*Footer*/
+
+/*Footer Section*/
+.Footer{
+    margin-top: 100px;
+}
+
+
+
+.above-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid #171717;
+}
+
+.footer-quick-links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.footer-quick-links a {
+    text-decoration: none;
+
+
+    
+}
+
+.footer-items{
+    margin: 50px;
+    color: #ffffff;
+    
+}
+
+.footer-items a{
+    color: #ffffff;
+    
+}
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.footer-about{
+    width: 400px;
+}
+
+.footer-heading{
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+
+.footer-about > p, .footer-quick-links > li a, .footer-contact > li a, .footer-contact > li {
+
+    font-size: 17px;
+    line-height: 22px;
+}
+
+
+
+
